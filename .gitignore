@@ -1,0 +1,17 @@
+__pycache__/
+
+ai_models/tti.py
+images/
+
+docker_build.sh
+docker_run.sh
+docker_clean.sh
+
+helper.sh
+
+docker-compose.yml
+
+error.log
+
+captcha_solver/extension/
+captcha_solver/ai_model.py

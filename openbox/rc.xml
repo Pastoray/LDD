@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<openbox_config xmlns="http://openbox.org/3.4/rc">
+<applications>
+<application class="*">
+<decor>no</decor>
+<fullscreen>yes</fullscreen>
+<skip_pager>yes</skip_pager>
+<skip_taskbar>yes</skip_taskbar>
+</application>
+</applications>
+<desktops>
+<number>1</number>
+<firstdesktop>1</firstdesktop>
+<popupTime>0</popupTime>
+</desktops>
+<focus>
+<focusNew>yes</focusNew>
+<followMouse>no</followMouse>
+<focusLast>yes</focusLast>
+<raiseOnFocus>no</raiseOnFocus>
+<unless>
+<decorations/>
+<shade/>
+<stacking/>
+<dock/>
+<icon/>
+</unless>
+</focus>
+</openbox_config>

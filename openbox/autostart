@@ -1,0 +1,2 @@
+/app/venv/bin/python3 -u /app/main.py phi3:mini
+openbox --exit

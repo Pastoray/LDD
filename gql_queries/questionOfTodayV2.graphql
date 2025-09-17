@@ -1,0 +1,26 @@
+query questionOfTodayV2 {
+  activeDailyCodingChallengeQuestion {
+    date
+    userStatus
+    link
+    question {
+      id: questionId
+      titleSlug
+      title
+      translatedTitle
+      questionFrontendId
+      paidOnly: isPaidOnly
+      difficulty
+      topicTags {
+        name
+        slug
+        nameTranslated: translatedName
+      }
+      status
+      isInMyFavorites: isFavor
+      acRate
+      frequency: freqBar
+    }
+  }
+}
+
